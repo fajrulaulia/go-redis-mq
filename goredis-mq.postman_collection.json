@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "5a03952d-fc81-4c06-a7b3-35eafadb222b",
+		"name": "goredis-mq",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24629116"
+	},
+	"item": [
+		{
+			"name": "Publisher",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"payload\":\"fajrul aulia\",\n    \"type\":\"data\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1323/publish",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1323",
+					"path": [
+						"publish"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
